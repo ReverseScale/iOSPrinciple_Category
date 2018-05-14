@@ -18,6 +18,7 @@
 		3452276020A58008003C23BD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452275F20A58008003C23BD /* Person.m */; };
 		3452276320A5806E003C23BD /* Person+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452276220A5806E003C23BD /* Person+Test.m */; };
 		3452276620A580EC003C23BD /* Person+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452276520A580EC003C23BD /* Person+Test2.m */; };
+		345EB24220A97DB20035E733 /* Person+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 345EB24120A97DB20035E733 /* Person+AddProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		3452276220A5806E003C23BD /* Person+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Test.m"; sourceTree = "<group>"; };
 		3452276420A580EC003C23BD /* Person+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Test2.h"; sourceTree = "<group>"; };
 		3452276520A580EC003C23BD /* Person+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Test2.m"; sourceTree = "<group>"; };
+		345EB24020A97DB20035E733 /* Person+AddProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+AddProperty.h"; sourceTree = "<group>"; };
+		345EB24120A97DB20035E733 /* Person+AddProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+AddProperty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				3452276220A5806E003C23BD /* Person+Test.m */,
 				3452276420A580EC003C23BD /* Person+Test2.h */,
 				3452276520A580EC003C23BD /* Person+Test2.m */,
+				345EB24020A97DB20035E733 /* Person+AddProperty.h */,
+				345EB24120A97DB20035E733 /* Person+AddProperty.m */,
 				3452272F20A57F26003C23BD /* Main.storyboard */,
 				3452273220A57F2F003C23BD /* Assets.xcassets */,
 				3452273420A57F2F003C23BD /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3452276320A5806E003C23BD /* Person+Test.m in Sources */,
+				345EB24220A97DB20035E733 /* Person+AddProperty.m in Sources */,
 				3452272E20A57F26003C23BD /* ViewController.m in Sources */,
 				3452273920A57F2F003C23BD /* main.m in Sources */,
 				3452276020A58008003C23BD /* Person.m in Sources */,

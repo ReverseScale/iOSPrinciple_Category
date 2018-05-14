@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import "Person+AddProperty.h"
 
 @interface ViewController ()
 
@@ -16,6 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    Person *person = [Person new];
+    person.name = @"小明";
+    NSLog(@"person-name:%@", person.name);
+    
 }
 
 - (void)didReceiveMemoryWarning {
